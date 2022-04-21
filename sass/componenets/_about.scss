@@ -1,0 +1,25 @@
+@import "../common/common";
+@import "../mixin/divSize";
+
+#about {
+    margin: 15px 0 !important;
+
+    .about-img img {
+        width: 100%;
+    }
+
+    .about-txt {
+        h2 {
+            text-align: center;
+            text-transform: uppercase;
+            color: gray;
+            font-weight: 900;
+        }
+
+        p {
+            font-weight: 300;
+            font-style: italic;
+            text-align: justify;
+        }
+    }
+}
