@@ -118,4 +118,59 @@ img {
   font-style: italic;
   text-align: justify;
 }
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul, ol {
+  list-style-type: none;
+}
+
+img {
+  vertical-align: middle;
+}
+
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#service {
+  margin-bottom: 15px;
+}
+
+.service-head {
+  text-align: center;
+}
+
+.service-head h2 {
+  text-transform: uppercase;
+  font-weight: 900;
+  color: gray;
+}
+
+.service-item a {
+  background: gray;
+  color: #fff;
+  padding: 10px 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-transform: uppercase;
+  font-weight: 600;
+}
 /*# sourceMappingURL=main.css.map */

@@ -1,0 +1,27 @@
+@import "../common/common";
+@import "../mixin/divSize";
+
+#service{
+    margin-bottom: 15px;
+}
+
+.service-head{
+    text-align: center;
+    h2{
+        text-transform: uppercase;
+        font-weight: 900;
+        color: gray;
+    }
+}
+
+.service-item{
+    a{
+        background: gray;
+        color: #fff;
+        padding: 10px 15px;
+        display: flex;
+        justify-content: center;
+        text-transform: uppercase;
+        font-weight: 600;
+    }
+}
