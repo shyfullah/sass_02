@@ -1,0 +1,14 @@
+@import "../common/common";
+@import "../mixin/divSize";
+
+#gallery{
+    margin-bottom: 15px;
+    .gal-head{
+        text-align: center;
+        h2{
+            color: gray;
+            text-transform: uppercase;
+            font-weight: 900;
+        }
+    }
+}
